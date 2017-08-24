@@ -1,0 +1,18 @@
+header, footer, h1 {
+    padding: 1em;
+    color: white;
+    background-color: rgb(2, 15, 100);
+    clear: left;
+    text-align: center;
+}
+
+body {background-color: silver;}
+
+.poop {
+   float: center;
+   margin: 10px;
+   padding: 10px;
+   max-width: 150px;
+   height: 100px;
+   border: 1px solid black;
+}   

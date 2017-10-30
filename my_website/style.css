@@ -1,18 +1,40 @@
-header, footer, h1 {
-    padding: 1em;
-    color: white;
-    background-color: rgb(2, 15, 100);
-    clear: left;
-    text-align: center;
-}
-
 body {background-color: silver;}
 
 .poop {
    float: center;
    margin: 10px;
    padding: 10px;
-   max-width: 150px;
-   height: 100px;
-   border: 1px solid black;
+   max-width: 1000px;
+   height: 150px;
 }   
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-color: rgba(0,0,0,0.3);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none
+}
+
+li a:hover {
+    background-color: #5909CD;
+}
+
+
+h1, a {
+    font-family: 'Space Mono', monospace;
+}

@@ -23,7 +23,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: white;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -35,6 +35,10 @@ li a:hover {
 }
 
 
-h1, a {
+
+h1, h2, a, p {
     font-family: 'Space Mono', monospace;
+    color: white;
 }
+
+ 
